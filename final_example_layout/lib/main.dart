@@ -6,6 +6,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+  final double borderRadius = 22;
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
                       height: 150,
                       width: 180,
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(22),
+                        borderRadius: BorderRadius.circular(borderRadius),
                         color: Colors.red,
                       ),
                     ),
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
                           height: 70,
                           width: 180,
                           decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(22),
+                            borderRadius: BorderRadius.circular(borderRadius),
                             color: Colors.blue,
                           ),
                         ),
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
                           height: 70,
                           width: 180,
                           decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(22),
+                            borderRadius: BorderRadius.circular(borderRadius),
                             color: Colors.blue,
                           ),
                         ),
@@ -62,7 +63,7 @@ class MyApp extends StatelessWidget {
                 height: 150 / 2,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(22),
+                  borderRadius: BorderRadius.circular(borderRadius),
                   color: Colors.blue,
                 ),
               ),
@@ -70,7 +71,7 @@ class MyApp extends StatelessWidget {
                 height: 150 / 2,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(22),
+                  borderRadius: BorderRadius.circular(borderRadius),
                   color: Colors.red,
                 ),
               ),
@@ -84,7 +85,7 @@ class MyApp extends StatelessWidget {
                       height: 125 * 2,
                       width: 180,
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(22),
+                        borderRadius: BorderRadius.circular(borderRadius),
                         color: Colors.blue,
                       ),
                     ),
@@ -95,7 +96,7 @@ class MyApp extends StatelessWidget {
                           height: 50,
                           width: 180,
                           decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(22),
+                            borderRadius: BorderRadius.circular(borderRadius),
                             color: Colors.red,
                           ),
                         ),
@@ -103,7 +104,7 @@ class MyApp extends StatelessWidget {
                           height: 110,
                           width: 180,
                           decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(22),
+                            borderRadius: BorderRadius.circular(borderRadius),
                             color: Colors.red,
                           ),
                         ),
@@ -111,8 +112,8 @@ class MyApp extends StatelessWidget {
                           height: 50,
                           width: 180,
                           decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(22),
-                            color: Colors.red,
+                            borderRadius: BorderRadius.circular(borderRadius),
+                            color: Colors.blue,
                           ),
                         ),
                       ],
