@@ -72,7 +72,7 @@ class MyApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "Flutter is open source",
+                          "Flutter is open sourceeeeeeeeeeee",
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w800,
