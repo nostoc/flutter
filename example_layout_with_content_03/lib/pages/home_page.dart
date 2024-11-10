@@ -1,3 +1,7 @@
+import 'package:example_layout_with_content_03/widgets/icon_container.dart';
+import 'package:example_layout_with_content_03/widgets/large_container.dart';
+import 'package:example_layout_with_content_03/widgets/small_container.dart';
+import 'package:example_layout_with_content_03/widgets/social_icon_box.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -61,167 +65,101 @@ class HomePage extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Container(
-                    width: 180,
-                    decoration: const BoxDecoration(
-                        color: Color(0xff9E00FF),
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(22),
-                        )),
-                    child: const Column(
-                      children: [
-                        Text(
-                          "open-source",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.symmetric(
-                              horizontal: 20, vertical: 10),
-                          child: Text(
-                              "Flutter is an open-source UI (User Interface) software development kit created by Google."),
-                        ),
-                      ],
-                    ),
+                  SmallContainer(
+                    title: "open-source",
+                    description:
+                        "Flutter is an open-source UI (User Interface) software development kit created by Google.",
                   ),
-                  Container(
-                    width: 180,
-                    decoration: const BoxDecoration(
-                        color: Color(0xff9E00FF),
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(22),
-                        )),
-                    child: const Column(
-                      children: [
-                        Text(
-                          "Widget Tree",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.symmetric(
-                              horizontal: 20, vertical: 10),
-                          child: Text(
-                              "In Flutter, the user interface is represented as a tree of widgets, commonly known as the widget tree"),
-                        ),
-                      ],
-                    ),
-                  )
+                  SmallContainer(
+                    title: "widget tree",
+                    description:
+                        "In Flutter, the user interface is represented as a tree of widgets, commonly known as the widget tree",
+                  ),
                 ],
               ),
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                decoration: const BoxDecoration(
-                  color: Color(0xffFFE500),
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(22),
-                  ),
-                ),
-                child: const Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Padding(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: 20,
-                        vertical: 10,
-                      ),
-                      child: Text(
-                        "open-source",
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 20,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: 20,
-                        vertical: 10,
-                      ),
-                      child: Text(
-                          "Flutter is an open-source UI (User Interface) software development kit created by Google.Flutter is an open-source UI (User Interface) software development kit created by Google."),
-                    ),
-                  ],
-                ),
+              const LargeContainer(
+                title: "open-source",
+                description:
+                    "Flutter is an open-source UI (User Interface) software development kit created by Google.",
               ),
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                decoration: const BoxDecoration(
-                  color: Color(0xffFFE500),
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(22),
-                  ),
-                ),
-                child: const Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Padding(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                      child: Text(
-                        "Widget Tree",
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 20,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                      child: Text(
-                          "In Flutter, the user interface is represented as a tree of widgets, commonly known as the widget treeIn Flutter, the user interface is represented as a tree of widgets, commonly known as the widget tree"),
-                    ),
-                  ],
-                ),
+              const LargeContainer(
+                title: "widget tree",
+                description:
+                    "In Flutter, the user interface is represented as a tree of widgets, commonly known as the widget tree",
               ),
               const SizedBox(
                 height: 20,
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Container(
-                    width: 180,
-                    height: 180,
-                    decoration: const BoxDecoration(
-                      color: Color(0xff06FFA5),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(22),
-                      ),
-                    ),
-                    child: const Icon(
-                      Icons.book,
-                      size: 150,
-                    ),
+                  IconContainer(
+                    iconName: Icons.person_pin_circle,
+                    iconBgColor: Color(0xff06FFA5),
+                    iconColor: Color(0xff333333),
                   ),
-                  Container(
-                    width: 180,
-                    height: 180,
-                    decoration: const BoxDecoration(
-                        color: Color(0xff06FFA5),
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(22),
-                        )),
-                    child: const Icon(
-                      Icons.alarm,
-                      size: 150,
-                    ),
+                  IconContainer(
+                    iconName: Icons.alarm,
+                    iconBgColor: Color(0xff06FFA5),
+                    iconColor: Color(0xffffffff),
                   ),
                 ],
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              const Divider(
+                color: Color(0xff3B3636),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              const SizedBox(
+                width: double.infinity,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Flutter Blocks App",
+                      style: TextStyle(
+                        color: Color(0xffE5F0FF),
+                        fontSize: 20,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Text(
+                      "Flutter is an open-source UI (User Interface) software development kit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter was first introduced in 2015 and has gained significant popularity among developers due to its fast development cycle, expressive and flexible UI components, and excellent performance.",
+                      style: TextStyle(
+                        color: Color(0xff3B3636),
+                        fontSize: 15,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          SocialIconBox(iconName: Icons.facebook,),
+                          SocialIconBox(iconName: Icons.message,),
+                          SocialIconBox(iconName: Icons.telegram,),
+                          SocialIconBox(iconName: Icons.wechat_sharp,),
+                          SocialIconBox(iconName: Icons.phone,),
+                        ])
+                  ],
+                ),
               ),
             ],
           ),
