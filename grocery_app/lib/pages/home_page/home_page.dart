@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:grocery_app/pages/home_page/widgets/reusable/catergory_card.dart';
-import 'package:grocery_app/pages/home_page/widgets/reusable/product_card.dart';
-import 'package:grocery_app/pages/home_page/widgets/search_bar.dart';
+import 'package:grocery_app/widgets/reusable/home/catergory_card.dart';
+import 'package:grocery_app/widgets/reusable/home/product_card.dart';
+import 'package:grocery_app/widgets/reusable/home/search_bar.dart';
 import 'package:grocery_app/widgets/app_bar/app_bar.dart';
 
 class HomePage extends StatefulWidget {
