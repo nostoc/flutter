@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
                       const Text(
                           "Flutter is an open-source UI (User Interface) software development kit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter was first introduced in 2015."),
                       const SizedBox(
-                        height: 30,
+                        height: 40,
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -80,7 +80,7 @@ class MyApp extends StatelessWidget {
                     vertical: 20,
                   ),
                   width: double.infinity,
-                  height: 800,
+                  height: 550,
                   decoration: BoxDecoration(
                     color: const Color(0xffFFE500),
                     borderRadius: BorderRadius.circular(22),
@@ -108,7 +108,7 @@ class MyApp extends StatelessWidget {
                       const Text(
                           "Flutter is an open-source UI (User Interface) software development kit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter was first introduced in 2015."),
                       const SizedBox(
-                        height: 20,
+                        height: 40,
                       ),
                       Container(
                         width: double.infinity,
