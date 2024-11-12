@@ -13,14 +13,5 @@
   <img src="https://github.com/user-attachments/assets/037d2577-c87e-4781-a9e7-df7145470d79" alt="UI Screenshot 4" width="300" style="vertical-align: top;"/>
   
 
-![WhatsApp Image 2024-11-12 at 20 21 49_04e1de69](https://github.com/user-attachments/assets/b6f32ef1-5436-4a8c-a4f3-f073158c98d0)
-![WhatsApp Image 2024-11-12 at 20 21 49_8dd54b16](https://github.com/user-attachments/assets/b3d56f22-c3dd-4e51-b0cf-0cb2c7ea6ae5)
-![WhatsApp Image 2024-11-12 at 20 21 50_1f811d6b](https://github.com/user-attachments/assets/56a62808-72e7-4c60-b803-95f6b9da4b43)
-![WhatsApp Image 2024-11-12 at 20 21 50_be4c4d60](https://github.com/user-attachments/assets/3f02f47f-32ff-4130-a06a-9cdace1260a4)
-![WhatsApp Image 2024-11-12 at 20 21 50_629f8f81](https://github.com/user-attachments/assets/037d2577-c87e-4781-a9e7-df7145470d79)
-
-
-
-   
 
 </div>
