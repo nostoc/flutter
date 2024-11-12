@@ -36,7 +36,6 @@ class _CalculatorPageState extends State<CalculatorPage> {
       int number1 = int.tryParse(_number1Controller.text) ?? 0;
       int number2 = int.tryParse(_number2Controller.text) ?? 0;
       _result = (number1 / number2).ceil();
-     
     });
   }
 
@@ -63,6 +62,8 @@ class _CalculatorPageState extends State<CalculatorPage> {
       appBar: AppBar(
         title: const Text(
           "Simple Calculator",
+          style: TextStyle(color: Color(0xffffffff)),
+          textAlign: TextAlign.center,
         ),
         backgroundColor: const Color(0xFF686868),
       ),
